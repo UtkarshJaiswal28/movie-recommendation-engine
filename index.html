@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Engine</title>
+      <link rel="stylesheet" href="style.css"> 
+</head>  
+<body>
+<!--heading-->
+    <header>
+        <div class="title-bar">
+            <img src="download1.png">
+    <h1>Movie Recommendation Engine </h1> 
+    </div>
+     <h2>Discover your next favourite movie</h2>
+    </header>
+
+    <!--search section-->
+    <div class="search">
+      <input type="text" id="searchinput" placeholder="Enter movie name / actor / mood" class="searchbox">
+      <button class="searchbutton">search</button>
+    </div>
+
+    <!--movie details-->
+<div id="movieResults" class="movieresults"></div>
+
+<div id="movieDetails" class="moviedetails"></div>
+<!--movie detail modal-->
+<div id="movieModal" class="modal">
+  <div class="modal-content" id="modalContent"></div>
+</div>
+
+<div class="box">   
+  <h3 class="suggest">Find a movie that matches your mood/vibes</h3>
+  </div>
+
+    <marquee scrollamount="10">
+    <img class="image1" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e22ff753131197.596c4c560ae3b.jpg">
+    <img class="image1" src="https://th.bing.com/th/id/R.a55dd5066c720c301569eac4f0820c9f?rik=Y84cfdymWe2KoQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-H57vRpipBhs%2fT92h_GLMFAI%2fAAAAAAAAAAc%2fzLYxoSfXv9w%2fs1600%2favatar_movie_poster_final_01.jpg&ehk=jzJkCE7sP8U2tnS91vVNZ2sFDSdjyJXIi4QpgsOUBZY%3d&risl=&pid=ImgRaw&r=0">
+    <img class="image1" src="https://graphicdesignjunction.com/wp-content/uploads/2012/03/movies-poster-20.jpg">
+    <img class="image1" src="https://th.bing.com/th/id/R.fc74197ac83fdd75ccab6c0b7a0067e6?rik=vR7jmENDG7T3tQ&riu=http%3a%2f%2fwww.slashfilm.com%2fwp%2fwp-content%2fimages%2f2017-bestposter-justiceleague.jpg&ehk=Cr%2fK7zNQv0iOLsZf%2bPam6JDDYRQcfzBd5vedrT9C7xA%3d&risl=&pid=ImgRaw&r=0">
+    <img class="image1" src="https://tse1.explicit.bing.net/th/id/OIP.G-2Q6Qo4uqjpTCd07OXTYgHaK-?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <img class="image1" src="https://cdna.artstation.com/p/assets/images/images/063/096/684/large/william-j-harris-oppenheimer-movie-poster-2023.jpg?1684720979">
+    <img class="image1" src="https://tse2.mm.bing.net/th/id/OIP.XqG7LUbIi8q7DdiRLAliLgHaK5?rs=1&pid=ImgDetMain&o=7&rm=3">
+    </marquee>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
