@@ -21,7 +21,7 @@ Clicking on any movie displays a **popup modal** showing:
 - Cast 
 - Plot summary
 
-### 🔧 How I Built This Project
+###  How I Built This Project
 
 ## 1️⃣ Understanding the Problem Statement
 The first step was to understand the assignment requirements
